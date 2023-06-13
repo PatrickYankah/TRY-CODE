@@ -1,0 +1,55 @@
+body{
+    background-color: steelblue;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    margin: 20px;
+}
+
+
+.logo a{
+    text-decoration: none;
+}
+
+.logo h2{
+    color: white;
+    width: 40%;
+    margin-left: 100px;
+}
+
+
+.text{
+    width: 50%;
+    /* border: 1px solid red; */
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.bold-text{
+    width: 10px;
+    font-size: 100px;
+}
+.row{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    
+   
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    gap: 1rem;
+
+}
+
+
+

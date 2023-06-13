@@ -1,0 +1,20 @@
+body{
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+   
+}
+
+.icon-box{
+    border: 2px solid red;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+i{
+    font-size: 4rem;
+}
