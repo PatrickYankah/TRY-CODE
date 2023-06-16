@@ -12,9 +12,48 @@
     justify-content: space-around;
     align-items: center;
     height: 50px;
+    background-color: brown;
 }
 
 ul {
     display: flex;
     gap: 2rem;
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+}
+
+ul a:hover{
+background-color: black;
+width: 65px;
+border-radius: 5px;
+padding: 3px;
+text-decoration: underline;
+}
+/* navbae ends here */
+
+.page1{
+    background-color: rgb(133, 97, 97);
+    height: 600px;
+}
+
+.page1-flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.page1-text-container{
+    width: 50%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page1-container-center{
+    max-width: 1200px;
+    margin: 0 auto;
 }

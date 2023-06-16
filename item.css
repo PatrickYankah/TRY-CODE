@@ -85,11 +85,12 @@
 }
 
 .btn{
-    background-color:white;
+    background-color: rgb(141, 141, 192);
     border-radius: 7px;
     width: 50%;
     margin-top: 3rem;
-    padding: 10px 1rem;
+    padding: 0.4rem;
+    font-size: 20px;
 }
 
 
@@ -104,6 +105,7 @@
 .cover-rap :hover{
     background-color: rgb(130, 80, 23);
     color: white;
+    transition: 0.3s;
 }
 
 .first-box{
@@ -116,10 +118,6 @@
     bottom: 10rem;
     left: 3rem;
 }
-/* 
-.first-box :hover{
-    background-color: slateblue;
-} */
 
 .second-division{
     display: flex;
